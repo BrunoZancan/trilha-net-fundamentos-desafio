@@ -61,7 +61,7 @@ namespace DesafioFundamentos.Models
                 int horas = Convert.ToInt32(Console.ReadLine());
 
                 // Faz o calculo de quanto a pessoa vai pagar
-                decimal valorTotal = PrecoInicial * PrecoPorHora * horas;
+                decimal valorTotal = PrecoPorHora * horas + PrecoInicial;
 
                 veiculos.Remove(placa);
 
